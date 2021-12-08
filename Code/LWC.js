@@ -4,8 +4,6 @@ import {NavigationMixin} from 'lightning/navigation';
 
 export default class NavigationComponent extends NavigationMixin(LightningElement) {
 
-
-
     NavigatetonewLead() {
 
    this[NavigationMixin.Navigate]({
@@ -25,8 +23,7 @@ export default class NavigationComponent extends NavigationMixin(LightningElemen
     });
 
  }
-
- 
+ //LWC JS File
 
  NavigatetoeditAccount() {
 
