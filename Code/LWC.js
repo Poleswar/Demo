@@ -24,7 +24,6 @@ export default class NavigationComponent extends NavigationMixin(LightningElemen
 
  }
  //LWC JS File
-
  NavigatetoeditAccount() {
 
     this[NavigationMixin.Navigate]({
