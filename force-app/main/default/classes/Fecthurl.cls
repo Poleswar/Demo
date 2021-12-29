@@ -1,4 +1,4 @@
-public with sharing class Fetchurl {
+public with sharing class Fetchurl {     
     public Fetchurl() {
     }
   //@AuraEnabled(cacheable=true)
