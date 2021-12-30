@@ -7,6 +7,7 @@ export default class FetchRecordId extends LightningElement {
     @api objectApiName;
     @track link;
     @track hlink;
+    //java
     @wire(fetchBaseURL)
     wiredAccounts({ error, data }) {
         if(data) {
