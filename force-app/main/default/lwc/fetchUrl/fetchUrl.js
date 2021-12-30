@@ -15,7 +15,7 @@ export default class FetchRecordId extends LightningElement {
         } else if (error) {
             console.log(error);
             this.error = error;
-        }     
+        }    
     }
     handleString(evt){
         console.log('test***********************'+this.link);
