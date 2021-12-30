@@ -2,6 +2,7 @@ import { LightningElement, api, wire, track} from'lwc';
 import CURRENTUSERID from '@salesforce/user/Id';
 import fetchBaseURL from '@salesforce/apex/Fetchurl.fetchBaseURL';
 export default class FetchRecordId extends LightningElement {
+    //Get direct Link
     @api recordId;
     @api objectApiName;
     @track link;
